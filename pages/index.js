@@ -38,7 +38,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          O'zbekcha ism va familyangizni ingiliz tiliga o'girib beruvchi sayt
+          O&apos;zbekcha ism va familyangizni ingiliz tiliga o&apos;girib beruvchi sayt
         </title>
         <meta name="description" content="O'zbekcha ism va familyangizni ingiliz tiliga o'girib beruvchi sayt" />
         <link rel="icon" href="/favicon.ico" />
@@ -50,7 +50,7 @@ export default function Home() {
         </h1> */}
 
         <p className={styles.description}>
-          O'zbekcha ism va familyangizni ingiliz tiliga o'girib beruvchi sayt
+          O&apos;zbekcha ism va familyangizni ingiliz tiliga o&apos;girib beruvchi sayt
         </p>
 
         <div className={styles.grid}>
