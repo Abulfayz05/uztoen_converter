@@ -14,6 +14,7 @@ export default function Home() {
     // .replace(/qo/gi, "ka")
     .replace(/q/gi, "k")
     .replace(/x/gi, "kh")
+    .replace(/h/gi, "kh")
     .replace(/o'/gi, "u")
     .replace(/g'/gi, "g")
     .replace(/ye/gi, "e");
@@ -24,6 +25,7 @@ export default function Home() {
     // .replace(/qo/gi, "ka")
     .replace(/q/gi, "k")
     .replace(/x/gi, "kh")
+    .replace(/h/gi, "kh")
     .replace(/o'/gi, "u")
     .replace(/g'/gi, "g")
     .replace(/ye/gi, "e");
