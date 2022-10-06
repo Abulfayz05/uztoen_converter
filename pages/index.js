@@ -14,9 +14,10 @@ export default function Home() {
     // .replace(/qo/gi, "ka")
     .replace(/q/gi, "k")
     .replace(/x/gi, "kh")
-    // .replace(/h/gi, "kh")
     .replace(/o'/gi, "u")
-    .replace(/g'/gi, "g")
+    .replace(/o`/gi, "u")
+    .replace(/'/gi, "")
+    .replace(/`/gi, "")
     .replace(/ye/gi, "e");
   // ** END Firstname to convert ** //
 
@@ -27,7 +28,9 @@ export default function Home() {
     .replace(/x/gi, "kh")
     // .replace(/h/gi, "kh")
     .replace(/o'/gi, "u")
-    .replace(/g'/gi, "g")
+    .replace(/o`/gi, "u")
+    .replace(/'/gi, "")
+    .replace(/`/gi, "")
     .replace(/ye/gi, "e");
   // ** END Lastname to convert ** //
 
