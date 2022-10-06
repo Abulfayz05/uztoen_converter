@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import styles from "../styles/Home.module.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+import { IoAlertCircle } from "react-icons/io5";
 
 export default function Home() {
   const [firstname, setFirstname] = useState("");
@@ -26,7 +27,6 @@ export default function Home() {
     // .replace(/qo/gi, "ka")
     .replace(/q/gi, "k")
     .replace(/x/gi, "kh")
-    // .replace(/h/gi, "kh")
     .replace(/o'/gi, "u")
     .replace(/o`/gi, "u")
     .replace(/'/gi, "")
@@ -43,9 +43,13 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>
-          O&apos;zbekcha ism va familyangizni ingiliz tiliga o&apos;girib beruvchi sayt
+          O&apos;zbekcha ism va familyangizni ingiliz tiliga o&apos;girib
+          beruvchi sayt
         </title>
-        <meta name="description" content="O'zbekcha ism va familyangizni ingiliz tiliga o'girib beruvchi sayt" />
+        <meta
+          name="description"
+          content="O'zbekcha ism va familyangizni ingiliz tiliga o'girib beruvchi sayt"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -55,7 +59,8 @@ export default function Home() {
         </h1> */}
 
         <p className={styles.description}>
-          O&apos;zbekcha ism va familyangizni ingiliz tiliga o&apos;girib beruvchi sayt
+          O&apos;zbekcha ism va familyangizni ingiliz tiliga o&apos;girib
+          beruvchi sayt
         </p>
 
         <div className={styles.grid}>
@@ -105,6 +110,21 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className={styles.alert}>
+          <div className={styles.alertbox}>
+            <IoAlertCircle color="#ffc12e" size={35} />
+            <h3>
+              Tarjima jarayonida xatolikni aniqlasangiz bizga murojaat qiling :{" "}
+              <a
+                href="https://t.me/abulfayz05"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                @abulfayz05
+              </a>
+            </h3>
+          </div>
+        </div>
       </main>
 
       <footer className={styles.footer}>
@@ -113,8 +133,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "} : Abulfayz
-       
+          Powered by : Abulfayz
         </a>
       </footer>
     </div>
