@@ -4,6 +4,7 @@ import { useState } from "react";
 import styles from "../styles/Home.module.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { IoAlertCircle } from "react-icons/io5";
+import { NextSeo } from "next-seo";
 
 export default function Home() {
   const [firstname, setFirstname] = useState("");
@@ -41,15 +42,15 @@ export default function Home() {
     lntoenglish.charAt(0).toUpperCase() + lntoenglish.slice(1);
   return (
     <div className={styles.container}>
+      <NextSeo
+        title="uztoen.uz O'zbekcha ism va familyangizni ingiliz tiliga o'girib
+        beruvchi sayt"
+        description="O'zbekcha ism va familyangizni ingiliz tiliga o'girib
+        beruvchi sayt uztoen.uz"
+        titleTemplate="O'zbekcha ism va familyangizni ingiliz tiliga o'girib
+        beruvchi sayt"
+      />
       <Head>
-        <title>
-          O&apos;zbekcha ism va familyangizni ingiliz tiliga o&apos;girib
-          beruvchi sayt
-        </title>
-        <meta
-          name="description"
-          content="O'zbekcha ism va familyangizni ingiliz tiliga o'girib beruvchi sayt"
-        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
