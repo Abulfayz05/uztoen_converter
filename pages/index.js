@@ -19,11 +19,13 @@ export default function Home() {
     .replace(/o'/gi, "u")
     .replace(/o`/gi, "u")
     .replace(/oʻ/gi, "u")
+    .replace(/oʼ/gi, "u")
     .replace(/'/gi, "")
     .replace(/`/gi, "")
     .replace(/ʻ/gi, "")
+    .replace(/ʼ/gi, "")
     .replace(/ye/gi, "e");
-    
+
   // ** END Firstname to convert ** //
 
   // ** Lastname to convert ** //
@@ -34,9 +36,11 @@ export default function Home() {
     .replace(/o'/gi, "u")
     .replace(/o`/gi, "u")
     .replace(/oʻ/gi, "u")
+    .replace(/oʼ/gi, "u")
     .replace(/'/gi, "")
     .replace(/`/gi, "")
     .replace(/ʻ/gi, "")
+    .replace(/ʼ/gi, "")
     .replace(/ye/gi, "e");
   // ** END Lastname to convert ** //
 
