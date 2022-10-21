@@ -23,6 +23,7 @@ export default function Home() {
     .replace(/`/gi, "")
     .replace(/ʻ/gi, "")
     .replace(/ye/gi, "e");
+    
   // ** END Firstname to convert ** //
 
   // ** Lastname to convert ** //
