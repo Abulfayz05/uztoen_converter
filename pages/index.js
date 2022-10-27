@@ -52,11 +52,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <NextSeo
-        title="uztoen.uz O'zbekcha ism va familyangizni ingiliz tiliga o'girib
+        title="uztoen.uz  O'zbekcha ism va familyangizni ingiliz tiliga o'girib
         beruvchi sayt"
         description="O'zbekcha ism va familyangizni ingiliz tiliga o'girib
         beruvchi sayt uztoen.uz"
-        titleTemplate="O'zbekcha ism va familyangizni ingiliz tiliga o'girib
+        titleTemplate="Uztoen.uz - O'zbekcha ism va familyangizni ingiliz tiliga o'girib
         beruvchi sayt"
       />
       <Head>
