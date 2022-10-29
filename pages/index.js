@@ -138,6 +138,12 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
+      <a href="https://aviasales.tp.st/WBtNXm1r">
+          <img
+            src="/download.png"
+            alt="DigitalOcean Referral Badge"
+          />
+        </a>
         <a href="https://www.digitalocean.com/?refcode=e0d3b5e9461e&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
           <img
             src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg"
