@@ -25,6 +25,16 @@ a {
 }
 
 
+
+
+.cascoon-app {
+   display: flex;
+   justify-content: center;
+
+
+}
+
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

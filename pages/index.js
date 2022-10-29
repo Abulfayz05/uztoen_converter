@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { IoAlertCircle } from "react-icons/io5";
 import { NextSeo } from "next-seo";
+import Script from "next/script";
 
 export default function Home() {
   const [firstname, setFirstname] = useState("");
@@ -73,11 +74,13 @@ export default function Home() {
           beruvchi sayt
         </p>
         <a href="https://aviasales.tp.st/WBtNXm1r">
-          <img
-            src="/download.png"
-            alt="Aviasales"
-          />
+          <img src="/download.png" alt="Aviasales" />
         </a>
+
+        <Script
+          src="//tp.media/content?currency=usd&promo_id=4044&shmarker=390303.390303&campaign_id=100&trs=193236&target_host=www.aviasales.com%2Fsearch&locale=uz&limit=20&powered_by=true&secondary=%230085FF&destination=TAS"
+          charset="utf-8"
+        ></Script>
 
         <div className={styles.grid}>
           <div className={styles.box}>
@@ -128,6 +131,7 @@ export default function Home() {
         </div>
         <div className={styles.alert}>
           <div className={styles.alertbox}>
+    
             <IoAlertCircle color="#ffc12e" size={35} />
             <h3>
               Tarjima jarayonida xatolikni aniqlasangiz bizga murojaat qiling :{" "}
@@ -139,12 +143,14 @@ export default function Home() {
                 @abulfayz05
               </a>
             </h3>
+   
           </div>
         </div>
+
+     
       </main>
 
       <footer className={styles.footer}>
-  
         <a href="https://www.digitalocean.com/?refcode=e0d3b5e9461e&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
           <img
             src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg"
