@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <NextSeo
-        title="uztoen.uz  O'zbekcha ism va familyangizni ingiliz tiliga o'girib
+        title="uztoen.uz  O'zbekcha ism va familyani ingiliz tiliga o'girib
         beruvchi sayt"
         description="O'zbekcha ism va familyangizni ingiliz tiliga o'girib
         beruvchi sayt uztoen.uz"
@@ -73,14 +73,7 @@ export default function Home() {
           O&apos;zbekcha ism va familyangizni ingiliz tiliga o&apos;girib
           beruvchi sayt
         </p>
-        <a href="https://aviasales.tp.st/WBtNXm1r">
-          <img src="/download.png" alt="Aviasales" />
-        </a>
 
-        <Script
-          src="//tp.media/content?currency=usd&promo_id=4044&shmarker=390303.390303&campaign_id=100&trs=193236&target_host=www.aviasales.com%2Fsearch&locale=uz&limit=20&powered_by=true&secondary=%230085FF&destination=TAS"
-          charset="utf-8"
-        ></Script>
 
         <div className={styles.grid}>
           <div className={styles.box}>
@@ -151,12 +144,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://www.digitalocean.com/?refcode=e0d3b5e9461e&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
-          <img
-            src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg"
-            alt="DigitalOcean Referral Badge"
-          />
-        </a>
+   
       </footer>
     </div>
   );
