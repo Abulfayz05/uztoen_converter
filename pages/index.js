@@ -65,15 +65,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        {/* <h1 className={styles.title}>
-          Welcome to <a href="#">Next.js!</a>
-        </h1> */}
-
         <p className={styles.description}>
           O&apos;zbekcha ism va familyangizni ingiliz tiliga o&apos;girib
           beruvchi sayt
         </p>
-
 
         <div className={styles.grid}>
           <div className={styles.box}>
@@ -124,7 +119,6 @@ export default function Home() {
         </div>
         <div className={styles.alert}>
           <div className={styles.alertbox}>
-    
             <IoAlertCircle color="#ffc12e" size={35} />
             <h3>
               Tarjima jarayonida xatolikni aniqlasangiz bizga murojaat qiling :{" "}
@@ -136,16 +130,11 @@ export default function Home() {
                 @abulfayz05
               </a>
             </h3>
-   
           </div>
         </div>
-
-     
       </main>
 
-      <footer className={styles.footer}>
-   
-      </footer>
+      <footer className={styles.footer}></footer>
     </div>
   );
 }
