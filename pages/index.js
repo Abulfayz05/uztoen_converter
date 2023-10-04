@@ -6,6 +6,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import { IoAlertCircle } from "react-icons/io5";
 import { NextSeo } from "next-seo";
 import Script from "next/script";
+import Yandexads from "../components/Yandexads";
 
 export default function Home() {
   const [firstname, setFirstname] = useState("");
@@ -63,6 +64,8 @@ export default function Home() {
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Yandexads />
 
       <main className={styles.main}>
         <p className={styles.description}>

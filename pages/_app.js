@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
    
-      <Adsense />
+ 
       <Gtag />
       <Component {...pageProps} />
 
