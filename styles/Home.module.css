@@ -149,6 +149,18 @@
   
 }
 
+.alertboxsuc{
+  margin-top: 20px;
+  background-color: #91ec89;
+  padding: 8px 15px;
+  border-radius: 10px;
+  display: flex;
+  max-width: 350px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
 .alertbox h3{
   margin-left: 15px;
 font-weight: 500;

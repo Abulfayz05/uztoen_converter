@@ -7,6 +7,7 @@ import { IoAlertCircle } from "react-icons/io5";
 import { NextSeo } from "next-seo";
 import Script from "next/script";
 import Yandexads from "../components/Yandexads";
+import {AiOutlineCheck} from 'react-icons/ai'
 
 export default function Home() {
   const [firstname, setFirstname] = useState("");
@@ -65,9 +66,26 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Yandexads />
+      {/* <Yandexads /> */}
 
       <main className={styles.main}>
+        <div className={styles.alert}>
+          <div className={styles.alertbox}>
+            <AiOutlineCheck color="#198754" size={35} />
+            <h3>
+              Green Card DV-2025 mavsumi uchun ro‘yxatdan o‘tishda qiyinchilikga
+              duch kelsangiz murojaat qiling 
+              Telegram : 👇{" "}
+              <a
+                href="https://t.me/abulfayz05"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                @abulfayz05
+              </a>
+            </h3>
+          </div>
+        </div>
         <p className={styles.description}>
           O&apos;zbekcha ism va familyangizni ingiliz tiliga o&apos;girib
           beruvchi sayt
