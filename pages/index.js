@@ -7,7 +7,7 @@ import { IoAlertCircle } from "react-icons/io5";
 import { NextSeo } from "next-seo";
 import Script from "next/script";
 import Yandexads from "../components/Yandexads";
-import {AiOutlineCheck} from 'react-icons/ai'
+import { AiOutlineCheck } from "react-icons/ai";
 
 export default function Home() {
   const [firstname, setFirstname] = useState("");
@@ -74,8 +74,7 @@ export default function Home() {
             <AiOutlineCheck color="#198754" size={35} />
             <h3>
               Green Card DV-2025 mavsumi uchun ro‘yxatdan o‘tishda qiyinchilikga
-              duch kelsangiz murojaat qiling 
-              Telegram : 👇{" "}
+              duch kelsangiz murojaat qiling Telegram : 👇{" "}
               <a
                 href="https://t.me/abulfayz05"
                 target="_blank"
@@ -93,36 +92,22 @@ export default function Home() {
 
         <div className={styles.grid}>
           <div className={styles.box}>
-            <p>Ismingizni kiriting </p>
-            <input
-              type="text"
-              value={firstname}
-              onChange={(e) => setFirstname(e.target.value)}
-            />
-
             <p>Familyangizni kiriting </p>
             <input
               type="text"
               value={lastname}
               onChange={(e) => setLastname(e.target.value)}
             />
+            <p>Ismingizni kiriting </p>
+            <input
+              type="text"
+              value={firstname}
+              onChange={(e) => setFirstname(e.target.value)}
+            />
           </div>
 
           <h2>Natija</h2>
           <div className={styles.section}>
-            <p>Firstname / Ismingiz</p>
-            <div className={styles.copybox}>
-              <span className={styles.code}>{fncapitalized}</span>
-              <CopyToClipboard
-                text={fncapitalized}
-                onCopy={() => setCopy(true)}
-              >
-                <button className={`${copy ? "copied" : "copy"}`}>
-                  {" "}
-                  {copy ? "Nusxalandi" : "Nusxalash"}
-                </button>
-              </CopyToClipboard>
-            </div>
             <p>Lastname / Familyangiz</p>
             <div className={styles.copybox}>
               <span className={styles.code}>{lncapitalized}</span>
@@ -133,6 +118,20 @@ export default function Home() {
                 <button className={`${copyln ? "copied" : "copy"}`}>
                   {" "}
                   {copyln ? "Nusxalandi" : "Nusxalash"}
+                </button>
+              </CopyToClipboard>
+            </div>
+
+            <p>Firstname / Ismingiz</p>
+            <div className={styles.copybox}>
+              <span className={styles.code}>{fncapitalized}</span>
+              <CopyToClipboard
+                text={fncapitalized}
+                onCopy={() => setCopy(true)}
+              >
+                <button className={`${copy ? "copied" : "copy"}`}>
+                  {" "}
+                  {copy ? "Nusxalandi" : "Nusxalash"}
                 </button>
               </CopyToClipboard>
             </div>
